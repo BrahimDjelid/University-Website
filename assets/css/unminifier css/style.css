@@ -516,12 +516,13 @@ header nav .nav-links a::after {
 
 .facilities .container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 40px;
 }
 
 @media (max-width: 767px) {
   .facilities .container {
+    grid-template-columns: minmax(150px, 1fr);
     gap: 20px;
   }
 }
